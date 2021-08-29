@@ -1,0 +1,3 @@
+<span *ngFor="let friend of friends">
+    <app-friend-detail (onFriendRemoved)="removeFriend($event)" [friend]="friend"></app-friend-detail>
+</span>

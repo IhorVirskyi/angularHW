@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angularhw-cb6c8": {
+      "hosting": {
+        "angularProject": [
+          "angularhw-cb6c8"
+        ]
+      }
+    }
+  }
+}

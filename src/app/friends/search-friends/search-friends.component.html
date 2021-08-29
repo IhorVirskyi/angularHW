@@ -1,0 +1,12 @@
+<!-- <h1>Friends</h1>
+
+<label for="searchField"></label>
+<input type="text" placeholder="Search friends" id="searchField">
+<button class="search">Search</button> -->
+
+<form [formGroup]="searchForm" (ngSubmit)="onSearch()">
+    <label for="searchField"></label>
+    <input type="text" placeholder="Search friends" id="searchField" formControlName="text">
+
+    <button class="search">Search</button> -->
+</form>

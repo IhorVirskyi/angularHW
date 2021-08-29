@@ -1,0 +1,21 @@
+
+header {
+    background: #673ab7;
+}
+
+a { 
+    color: white;
+}
+
+.steamIcon,
+.gamesLink,
+.libraryLink,
+.friendsLink,
+.profileLink {
+    margin-right: 3rem;
+}
+
+
+ .example-spacer {
+    flex: 1 1 auto;
+  }

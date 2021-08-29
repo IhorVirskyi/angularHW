@@ -1,0 +1,14 @@
+body {
+    font-size: 14px;
+}
+
+.game-box {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 3rem;
+    height: 120px;
+}
+
+.gTitle {
+    font-size: 30px;
+}

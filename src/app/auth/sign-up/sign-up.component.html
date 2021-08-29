@@ -1,0 +1,12 @@
+<h1>Sign Up</h1>
+
+<form [formGroup]="signUpForm" (ngSubmit)="onSubmit()">
+
+    <input type="text" placeholder="Email" id="email" formControlName="email">
+
+    <input type="password" placeholder="Password" id="pass" formControlName="password">
+
+    <input type="password" placeholder="Repeat password" id="rpass" formControlName="password">
+
+    <button class="signIn">Sign Up</button>
+</form>

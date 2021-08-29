@@ -1,0 +1,15 @@
+<h1>Profile</h1>
+
+<form [formGroup]="profileForm" (ngSubmit)="onSave()">
+
+    <label for="username">Username</label>
+    <input type="text" placeholder="Username" id="username" formControlName="username">
+
+    <label for="email">Email</label>
+    <input type="text" placeholder="my_maul@mail.com" id="email" formControlName="email">
+
+    <label for="age">Age</label>
+    <input type="text" placeholder="Age" id="age" formControlName="age">
+
+    <button class="saveBtn">Save</button>
+</form>

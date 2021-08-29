@@ -1,0 +1,6 @@
+<div *ngIf="games.length > 0; else nothing">
+    <div *ngFor="let game of games">
+        <app-library-detail [game]="game"></app-library-detail>
+    </div>
+</div>
+<ng-template #nothing>No games</ng-template>
